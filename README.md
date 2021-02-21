@@ -8,68 +8,41 @@
 [![codecov](https://codecov.io/gh/leerob/dart-react-todo/branch/master/graph/badge.svg)](https://codecov.io/gh/leerob/dart-react-todo)
 [![Strong Mode Compliant](https://img.shields.io/badge/strong_mode-on-brightgreen.svg)](https://github.com/leerob/dart-react-todo/blob/master/analysis_options.yaml#L2)
 
-### Visión de conjunto
+### Introduccion
 
-En estos tiempos el uso de plataformas basadas en cloud es tan popular, es por eso que necesario crear soluciones adptadas ha este tipo de
-paradigmas. Hay un millón de formas diferentes de crear una aplicación web en el paisaje actual. Diferentes idiomas y frameworks van y
-vienen y varían en popularidad. El objetivo de este documento es informarle sobre el uso de Spring Framework para crea plataformas basadas en
-micro-servicios, usando el patron de arquitectura hexagonal. En este repo se encuentra una aplicacion echa con spring framework planteada
-con el patron de arquitectura hexagonal y con integracion para enviar correos electronicos y con el sistema de colas RabbitMQ.
+El desarrolo de aplicaciones mobiles evoluciona constantemente vemos ir y venir tecnologias de desarrollo de aplicaciones moviles,
+que resuelve cirtos problemas que las una implementacion nativa no resuelve, aqui es donde entra en juego flutter, como alternativa
+al desarrollo de aplicaciones multi plataforma.
 
 ### Tabla de Contenidos
 
-- [Inicio rápido](#inicio-rápido)
-- [Que es Spring?](#que-es-spring)
-- [Que es la arquitectura hexagonal?](#que-es-la-arquitectura-hexagonal)
+- [Que es Dart?](#que-es-dart)
+- [Que es Spring?](#que-es-flutter)
+- [Que son las aplicaciones multiplataforma?](#que-son-las-aplicaciones-multiplataforma)
 - [Referencias](#referencias)
 
-### Inicio rápido
+### Que es Dart?
 
-```bash
-$ git clone https://github.com/Ing-Brayan-Martinez/Java-SpringBoot-Example.git
-$ cd Java-SpringBoot-Example/Java-SpringBoot-Data/Java-SpringBoot-JPA
-$ mvn install
-$ cd target
-$ java -jar Java-SpringBoot-JPA.jar
-```
+Dart (originalmente llamado Dash) es un lenguaje de programación de código abierto, desarrollado por Google. Fue revelado 
+en la conferencia goto; en Aarhus, Dinamarca el 10 de octubre de 2011.3​ El objetivo de Dart no es reemplazar JavaScript
+como el principal lenguaje de programación web en los navegadores web, sino ofrecer una alternativa más moderna. El espíritu 
+del lenguaje puede verse reflejado en las declaraciones de Lars Bak, ingeniero de software de Google, que define a Dart como 
+un “lenguaje estructurado pero flexible para programación Web”.
 
-Abra http://localhost:8080/ para ver la aplicación.
+### Que es Flutter?
 
-### Que es Spring?
+Flutter es un SDK de código fuente abierto de desarrollo de aplicaciones móviles creado por Google. Suele usarse para desarrollar 
+interfaces de usuario para aplicaciones en Android, iOS y Web así como método primario para crear aplicaciones para Google Fuchsia.
 
-Spring es un framework alternativo al stack de tecnologías estándar en aplicaciones JavaEE. Nació en una época en la que las
-tecnologías estándar JavaEE y la visión "oficial" de lo que debía ser una aplicación Java Enterprise tenían todavía muchas
-aristas por pulir. Los servidores de aplicaciones eran monstruosos devoradores de recursos y los EJB eran pesados, inflexibles
-y era demasiado complejo trabajar con ellos. En ese contexto, Spring popularizó ideas como la inyección de dependencias o el
-uso de objetos convencionales (POJOs) como objetos de negocio, que suponían un soplo de aire fresco. Estas ideas permitían un
-desarrollo más sencillo y rápido y unas aplicaciones más ligeras. Eso posibilitó que de ser un framework inicialmente diseñado
-para la capa de negocio pasara a ser un completo stack de tecnologías para todas las capas de la aplicación.
+### Que son las aplicaciones multiplataforma?
 
-Las ideas "innovadoras" que en su día popularizó Spring se han incorporado en la actualidad a las tecnologías y herramientas
-estándar. Así, ahora mismo no hay una gran diferencia entre el desarrollo con Spring y el desarrollo JavaEE "estándar", o al
-menos no tanta como hubo en su día. No obstante, Spring ha logrado aglutinar una importante comunidad de desarrolladores en
-torno a sus tecnologías y hoy por hoy sigue constituyendo una importante alternativa al estándar que merece la pena conocer.
-En la actualidad, las aportaciones más novedosas de Spring se centran en los campos de Big Data/NoSQL, HTML5/móviles y
-aplicaciones sociales.
-
-### Que es la arquitectura hexagonal?
-
-La arquitectura hexagonal es un estilo de arquitectura que mueve el foco de un programador desde un plano más conceptual hacia
-la distinción entre el interior y el exterior del software. La parte interior son los casos prácticos y el modelo domain está
-construido sobre ello. La parte exterior es UI, base de datos, mensajería, etc. La conexión entre el interior y el exterior es
-mediante puertos, y su implementación equivalente se conocen como adaptadores. Por esta razón, este estilo de arquitectura se
-conoce habitualmente como Puertos y Adaptadores.
-
-La arquitectura hexagonal promueve la separación de asuntos mediante la encapsulación de la lógica en diferentes capas de la
-aplicación. Esto permite un aislamiento de mayor nivel, testabilidad, y control sobre el código de negocio específico. Cada capa
-de la aplicación tiene un estricto grupo de responsabilidades y requerimientos. Esto crea separaciones más claras entre la lógica
-y la funcionalidad, y como esas capas deberían interactuar entre ellas.
-
-Cada parte del hexágono representa un input – puerto, por ejemplo HTTP, que utiliza un adaptador para un tipo específico. Crea una
-separación clara entre el modelo domain y los dispositivos utilizados para las entradas o salidas.
+Las aplicaciones multiplataforma son Apps que se desarrollan en un lenguaje de programación y que, para poder exportarlas a
+cualquier tipo de dispositivo o plataforma, necesitan de unos cambios mínimos. Dicho de otra manera, se trata de aplicaciones 
+que funcionan en todo tipo de dispositivos gracias a haberse desarrollado con un código único que se adapta a cada sistema
+operativo.
 
 ### Referencias
 
+- [Que es Dart?](https://es.wikipedia.org/wiki/Dart)
 - [Que es Spring?](http://www.jtech.ua.es/j2ee/publico/spring-2012-13/sesion01-apuntes.html)
-- [Que es la arquitectura hexagonal?](https://apiumhub.com/es/tech-blog-barcelona/arquitectura-hexagonal/)
-- [Arquitectura hexagonal](https://codely.tv/screencasts/arquitectura-hexagonal-ddd/)
+- [Que son las aplicaciones multiplataforma?](https://www.tu-app.net/blog/desarrollo-aplicaciones-multiplataforma/)
