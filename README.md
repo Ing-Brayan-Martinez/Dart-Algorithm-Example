@@ -17,7 +17,7 @@ al desarrollo de aplicaciones multi plataforma.
 ### Tabla de Contenidos
 
 - [Que es Dart?](#que-es-dart)
-- [Que es Spring?](#que-es-flutter)
+- [Que es Flutter?](#que-es-flutter)
 - [Que son las aplicaciones multiplataforma?](#que-son-las-aplicaciones-multiplataforma)
 - [Referencias](#referencias)
 
@@ -44,5 +44,5 @@ operativo.
 ### Referencias
 
 - [Que es Dart?](https://es.wikipedia.org/wiki/Dart)
-- [Que es Spring?](http://www.jtech.ua.es/j2ee/publico/spring-2012-13/sesion01-apuntes.html)
+- [Que es Flutter?](https://es.wikipedia.org/wiki/Flutter_(software))
 - [Que son las aplicaciones multiplataforma?](https://www.tu-app.net/blog/desarrollo-aplicaciones-multiplataforma/)
