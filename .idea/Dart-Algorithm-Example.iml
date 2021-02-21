@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/lib/01-Language-Basic/01_la_cli/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/01-Language-Basic/01_la_cli/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/lib/01-Language-Basic/01_la_cli/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+  </component>
+</module>
