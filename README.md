@@ -10,15 +10,14 @@
 
 ### Introduccion
 
-El desarrolo de aplicaciones mobiles evoluciona constantemente vemos ir y venir tecnologias de desarrollo de aplicaciones moviles,
-que resuelve cirtos problemas que las una implementacion nativa no resuelve, aqui es donde entra en juego flutter, como alternativa
-al desarrollo de aplicaciones multi plataforma.
+El objetivo de este repositorio es crear una serie de ejemplos de algoritmos usando el lenguaje Dart, este proceso me 
+va a ayudar a desarrollar mis habilidades de programacion con este lenguaje, esto es un paso fundamental para ser 
+un senior developer.
 
 ### Tabla de Contenidos
 
 - [Que es Dart?](#que-es-dart)
-- [Que es Flutter?](#que-es-flutter)
-- [Que son las aplicaciones multiplataforma?](#que-son-las-aplicaciones-multiplataforma)
+- [Que es un Algoritmo?](#que-es-un-algoritmo)
 - [Referencias](#referencias)
 
 ### Que es Dart?
@@ -29,20 +28,15 @@ como el principal lenguaje de programación web en los navegadores web, sino ofr
 del lenguaje puede verse reflejado en las declaraciones de Lars Bak, ingeniero de software de Google, que define a Dart como 
 un “lenguaje estructurado pero flexible para programación Web”.
 
-### Que es Flutter?
+### Que es un Algoritmo?
 
-Flutter es un SDK de código fuente abierto de desarrollo de aplicaciones móviles creado por Google. Suele usarse para desarrollar 
-interfaces de usuario para aplicaciones en Android, iOS y Web así como método primario para crear aplicaciones para Google Fuchsia.
-
-### Que son las aplicaciones multiplataforma?
-
-Las aplicaciones multiplataforma son Apps que se desarrollan en un lenguaje de programación y que, para poder exportarlas a
-cualquier tipo de dispositivo o plataforma, necesitan de unos cambios mínimos. Dicho de otra manera, se trata de aplicaciones 
-que funcionan en todo tipo de dispositivos gracias a haberse desarrollado con un código único que se adapta a cada sistema
-operativo.
+Un algoritmo es un conjunto de reglas que toma una o varias entradas, luego realiza cálculos internos y manipulaciones de 
+datos y devuelve una salida o un conjunto de salidas. En resumen, los algoritmos facilitan la vida. Desde manipulaciones 
+de datos complejas y hashes hasta aritmética simple, los algoritmos siguen un conjunto de pasos para producir un resultado 
+útil. Un ejemplo de un algoritmo sería una función simple que toma dos valores de entrada, los agrega y devuelve su suma.
 
 ### Referencias
 
 - [Que es Dart?](https://es.wikipedia.org/wiki/Dart)
-- [Que es Flutter?](https://es.wikipedia.org/wiki/Flutter_(software))
-- [Que son las aplicaciones multiplataforma?](https://www.tu-app.net/blog/desarrollo-aplicaciones-multiplataforma/)
+- [Que es un Algoritmo?](https://the-algorithms.com/es#about)
+- [Pagina de Ejersicios](https://the-algorithms.com/es)
