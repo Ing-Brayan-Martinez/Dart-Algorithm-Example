@@ -1,4 +1,4 @@
-<h1 align="center">Aprendiendo Lenguaje Dart</h1>
+<h1 align="center">Aprendiendo el Lenguaje Dart</h1>
 
 <h1 align="center">
   <img src="https://github.com/Ing-Brayan-Martinez/Dart-Algorithm-Example/blob/master/.github/assest/maxresdefault.jpg" alt="Flutter" width="800"/>
