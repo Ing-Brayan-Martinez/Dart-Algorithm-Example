@@ -5,8 +5,6 @@
 </h1>
 
 [![Dart](https://github.com/Ing-Brayan-Martinez/Dart-Algorithm-Example/actions/workflows/dart.yml/badge.svg)](https://github.com/Ing-Brayan-Martinez/Dart-Algorithm-Example/actions/workflows/dart.yml)
-[![codecov](https://codecov.io/gh/leerob/dart-react-todo/branch/master/graph/badge.svg)](https://codecov.io/gh/leerob/dart-react-todo)
-[![Strong Mode Compliant](https://img.shields.io/badge/strong_mode-on-brightgreen.svg)](https://github.com/leerob/dart-react-todo/blob/master/analysis_options.yaml#L2)
 
 ### Introduccion
 
