@@ -12,7 +12,7 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
+  lint-and-test:
     runs-on: ubuntu-latest
 
     steps:

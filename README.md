@@ -4,7 +4,7 @@
   <img src="https://github.com/Ing-Brayan-Martinez/Dart-Algorithm-Example/blob/master/.github/assest/maxresdefault.jpg" alt="Flutter" width="800"/>
 </h1>
 
-[![Dart](https://github.com/Ing-Brayan-Martinez/Dart-Algorithm-Example/actions/workflows/dart.yml/badge.svg)](https://github.com/Ing-Brayan-Martinez/Dart-Algorithm-Example/actions/workflows/dart.yml)
+[![Dart Continuous Integration](https://github.com/Ing-Brayan-Martinez/Dart-Algorithm-Example/actions/workflows/dart.yml/badge.svg)](https://github.com/Ing-Brayan-Martinez/Dart-Algorithm-Example/actions/workflows/dart.yml)
 
 ### Introduccion
 
