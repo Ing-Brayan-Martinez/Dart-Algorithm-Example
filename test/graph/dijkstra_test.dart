@@ -4,7 +4,6 @@ import 'package:test/test.dart';
 void main() {
   //unit test
   test('dijkstra()', () {
-
     // Creamos un grafo
     final grafo = Grafo([
       Nodo(0, 0, null),

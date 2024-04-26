@@ -1,9 +1,9 @@
-
+import 'dart:math';
 
 class Nodo {
   final int id;
-  final int distancia;
-  final Nodo? padre;
+  var distancia;
+  Nodo? padre;
 
   Nodo(this.id, this.distancia, this.padre);
 }
@@ -30,7 +30,10 @@ Map<int, Nodo> dijkstra(Grafo grafo, int nodoInicio) {
 
   // Inicializamos las distancias de cada nodo
   for (final nodo in grafo.nodos) {
-    sinVisitar.add(Nodo(nodo.id, int.MAX_VALUE, null));
+    // Get the maximum value for a 32-bit integer
+    var max32Bit = pow(2, 31) - 1; // 2^31 - 1 = 2147483647
+
+    sinVisitar.add(Nodo(nodo.id, max32Bit, null));
   }
 
   // Marcamos el nodo inicial como visitado y con distancia 0
@@ -40,17 +43,19 @@ Map<int, Nodo> dijkstra(Grafo grafo, int nodoInicio) {
   while (sinVisitar.isNotEmpty) {
     // Encontramos el nodo con la menor distancia sin visitar
     final nodoActual = sinVisitar.reduce((nodoMinimo, nodoActual) =>
-    nodoMinimo.distancia < nodoActual.distancia ? nodoMinimo : nodoActual);
+        nodoMinimo.distancia < nodoActual.distancia ? nodoMinimo : nodoActual);
 
     // Lo marcamos como visitado
     sinVisitar.remove(nodoActual);
 
     // Para cada vecino del nodo actual
-    for (final arista in grafo.aristas.where((arista) => arista.nodoInicio == nodoActual.id)) {
+    for (final arista in grafo.aristas
+        .where((arista) => arista.nodoInicio == nodoActual.id)) {
       final nodoVecino = sinVisitar.lookup(arista.nodoFin);
 
       // Si el nodo vecino no ha sido visitado y la nueva distancia es menor
-      if (nodoVecino != null && nodoActual.distancia + arista.peso < nodoVecino.distancia) {
+      if (nodoVecino != null &&
+          nodoActual.distancia + arista.peso < nodoVecino.distancia) {
         // Actualizamos la distancia y el padre del nodo vecino
         nodoVecino.distancia = nodoActual.distancia + arista.peso;
         nodoVecino.padre = nodoActual;
