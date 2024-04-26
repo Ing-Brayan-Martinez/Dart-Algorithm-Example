@@ -7,10 +7,10 @@ void main() {
 
     // Creamos un grafo
     final grafo = Grafo([
-      Nodo(0),
-      Nodo(1),
-      Nodo(2),
-      Nodo(3),
+      Nodo(0, 0, null),
+      Nodo(1, 0, null),
+      Nodo(2, 0, null),
+      Nodo(3, 0, null),
     ], [
       Arista(0, 1, 4),
       Arista(0, 2, 3),
