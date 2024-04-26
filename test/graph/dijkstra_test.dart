@@ -24,7 +24,7 @@ void main() {
     // Imprimimos las distancias de cada nodo
     for (final nodo in grafo.nodos) {
       final distancia = distanciasPadres[nodo.id]!.distancia;
-      print("Distancia del nodo ${nodo.id}: $distancia");
+      print('Distancia del nodo ${nodo.id}: $distancia');
     }
 
     print('Test Passed!');
