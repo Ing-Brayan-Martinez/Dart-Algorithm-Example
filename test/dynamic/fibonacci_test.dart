@@ -7,7 +7,6 @@ void main() {
     final num = 20;
     final expectedValue = 6765;
 
-
     print('-- Fibonacci -- \n\n');
 
     var resultValue = fibonacci(num);
@@ -15,7 +14,6 @@ void main() {
     print('Fibonacci of $num  is $resultValue \n\n');
 
     expect(expectedValue, resultValue);
-
 
     print('Test Passed!');
   });

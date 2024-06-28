@@ -7,9 +7,9 @@ void main() {
     final num = 5;
     final expectedValue = 120;
 
-    var resultValue = factorial(num);
-
     print('-- Factorial -- \n\n');
+
+    var resultValue = factorial(num);
 
     print('Factorial of $num  is $resultValue \n\n');
 
