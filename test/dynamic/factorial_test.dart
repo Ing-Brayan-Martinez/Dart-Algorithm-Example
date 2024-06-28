@@ -1,4 +1,4 @@
-import 'package:dart_algorithm_example/dinamic/factorial.dart';
+import 'package:dart_algorithm_example/dynamic/factorial.dart';
 import 'package:test/test.dart';
 
 void main() {

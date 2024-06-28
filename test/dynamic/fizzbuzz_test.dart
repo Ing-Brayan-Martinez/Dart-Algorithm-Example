@@ -1,4 +1,4 @@
-import 'package:dart_algorithm_example/dinamic/fizzbuzz.dart';
+import 'package:dart_algorithm_example/dynamic/fizzbuzz.dart';
 import 'package:test/test.dart';
 
 void main() {
