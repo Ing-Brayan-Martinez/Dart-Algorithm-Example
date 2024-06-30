@@ -22,6 +22,9 @@ jobs:
       - name: Install Dart
         uses: dart-lang/setup-dart@v1.3
 
+      - name: Get dart version
+        run: dart --version
+
       - name: Install dependencies
         run: dart pub get
 
