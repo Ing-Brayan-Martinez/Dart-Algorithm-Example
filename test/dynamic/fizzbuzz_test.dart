@@ -4,8 +4,8 @@ import 'package:test/test.dart';
 void main() {
   //unit test
   test('fizzbuzz()', () {
-    final num = 20;
-    final expectedValue = 'Buzz';
+    final num = 60;
+    final expectedValue = 'FizzBuzz';
 
     print('-- FizzBuzz -- \n\n');
 
