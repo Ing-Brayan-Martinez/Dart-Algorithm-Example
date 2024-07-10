@@ -8,17 +8,17 @@ void main() {
 
     print('-- Pattern -- \n\n');
 
-    if (element is Div) {
-      print('div');
-    }
-
-    if (element is HtmlElement) {
-      print('html element');
-    }
-
-    if (element is Element) {
-      print('element');
-    }
+    // if (element is Div) {
+    //   print('div');
+    // }
+    //
+    // if (element is HtmlElement) {
+    //   print('html element');
+    // }
+    //
+    // if (element is Element) {
+    //   print('element');
+    // }
 
     print(getElement(element) + '\n\n');
 
