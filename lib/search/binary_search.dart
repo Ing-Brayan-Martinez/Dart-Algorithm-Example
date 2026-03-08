@@ -1,4 +1,3 @@
-
 import 'package:optional/optional.dart';
 
 Optional<int> binarySearch<T>(List<T> arr, T objective) {
